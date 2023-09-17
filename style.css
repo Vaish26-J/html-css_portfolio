@@ -1,0 +1,136 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+#home{
+    height: 100vh;
+    background-image: url(./assets/low_poly_banner_design_1711.jpg);
+    background-size: cover;
+}
+
+.nav{
+    position: fixed;
+    top: 10px;
+    text-decoration: none;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 1.25rem;
+}
+.nav:hover{
+    text-decoration: underline;
+}
+.n-home{
+    right: 250px;
+}
+.n-about{
+    right: 150px;
+}
+.n-contact{
+    right: 50px;
+}
+
+.center-it{
+    padding-top: 15%;
+}
+#home img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;   
+}
+#home h1{
+    font-size: 4rem;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    color: #2D64A6;
+}
+#home p{
+    font-size: 1.5rem;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 100;
+    color: #2D64A6;
+}
+
+#about{
+    height: 80%;
+}
+.about-me h2, .skills h2{
+    font-size: 2rem;
+    font-family: 'Inria Serif', serif;
+    color: #2D64A6;
+}
+.about-me p{
+    width: 25%;
+    margin: auto;
+    line-height: 1.5;
+    font-family: 'Inria Serif', serif;
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+hr{
+    width: 80%;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.flex img{
+    height: 200px;
+    width: 200px;
+}
+
+.flex p{
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+}
+#contact{
+    margin-top: 20px;
+    background-color: #99C4E2;
+    height: 30vh;
+}
+#contact div{
+    padding-top: 15px;
+}
+#contact h2{
+    font-size: 2rem;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+}
+#contact p{
+    font-size: 1.25rem;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: white;
+    word-spacing: 2px;
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    background-color: #2D64A6;
+    margin-bottom: 10px;
+}
+
+@media (max-width : 1100px ) {
+    #about{
+        height: 100%;
+    }
+
+    .flex{
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 5%;
+    }
+
+    #contact{
+        height: 40vh;
+    }
+    .about-me p{
+        width: 50%;
+    }
+}
+
+
